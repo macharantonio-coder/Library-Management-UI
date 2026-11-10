@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile — Campus Library System</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="dashboard.html">📚 Library System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="books.html">Books</a></li>
+                    <li class="nav-item"><a class="nav-link" href="borrowing.html">My Borrowing</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Logout</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container page-content">
+        <h1 class="page-title">👤 My Profile</h1>
+
+        <div class="row">
+            <!-- Profile Info -->
+            <div class="col-md-4">
+                <div class="card p-4 text-center">
+                    <div style="font-size: 80px;">👨‍🎓</div>
+                    <h3 class="mt-3">Student Name</h3>
+                    <p class="text-muted">Student ID: 2300123456</p>
+                    <span class="badge bg-primary mb-3">Active Member</span>
+                    <hr>
+                    <p><strong>Member Since:</strong> Jan 2025</p>
+                    <button class="btn btn-outline-primary w-100">Edit Profile</button>
+                </div>
+            </div>
+
+            <!-- Details -->
+            <div class="col-md-8">
+                <div class="card p-4 h-100">
+                    <h5 class="card-title">Personal Information</h5>
+                    <hr>
+                    <div class="row mb-3">
+                        <div class="col-sm-4"><strong>Full Name</strong></div>
+                        <div class="col-sm-8">Machar [Your Last Name]</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4"><strong>Student ID</strong></div>
+                        <div class="col-sm-8">[Your NIM]</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4"><strong>Program / Major</strong></div>
+                        <div class="col-sm-8">Information Systems</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4"><strong>Email</strong></div>
+                        <div class="col-sm-8">student@student.nusaputra.ac.id</div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-sm-4"><strong>Phone</strong></div>
+                        <div class="col-sm-8">+62 8xx-xxxx-xxxx</div>
+                    </div>
+                    <hr>
+                    <h5 class="card-title mt-4">Library Statistics</h5>
+                    <div class="row text-center mt-3">
+                        <div class="col-4">
+                            <h4 class="text-primary">12</h4>
+                            <p class="text-muted small">Books Borrowed</p>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="text-primary">3</h4>
+                            <p class="text-muted small">Currently On Loan</p>
+                        </div>
+                        <div class="col-4">
+                            <h4 class="text-primary">0</h4>
+                            <p class="text-muted small">Overdue</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="mb-0">&copy; 2025 Campus Library Management System | Software Interface Design Assignment</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
